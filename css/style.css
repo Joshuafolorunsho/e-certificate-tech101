@@ -16,8 +16,8 @@ html {
 
 .container {
    border: 1.3rem solid var(--primary-color);
-   width: 88rem;
-   height: 61rem;
+   width: 80rem;
+   height: 57rem;
    margin: 50px auto;
    border-bottom-left-radius: .7rem;
    border-bottom-right-radius: .7rem;
@@ -36,4 +36,15 @@ html {
    background-color: var(--white);
    border-bottom-left-radius: 1rem;
    border-bottom-right-radius: 1rem;
+}
+
+.container-line {
+}
+.line{
+   position: relative;
+   top: 8rem;
+   left: 14rem;
+   width: 80%;
+   height: .2rem;
+   background-color: var(--black);
 }
