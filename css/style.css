@@ -62,42 +62,28 @@ body {
    top: 13rem;
 }
 
-.wrapper p small {
-   font-style: italic;
-   font-weight: bold;
-   font-size: 1.2rem;
+
+.sponsorers > img{
+   width: 70%;
 }
 
-.sponsorers {
-   display: flex;
-   justify-content: space-between;
-}
 
-.sponsorers .google {
-
-}
-
-.sponsorers .ayaya {
-
-}
-
-.sponsorers .akees{
-
-}
-
-.sponsorers .onuk{
-
-}
-
-.signature{
+/* .signature{
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
 }
+
+
+
 .signature > p{
    font-weight: bold;
    font-style: italic;
+} */
+
+.signature > img{
+   width: 80%;
 }
 
 .courses{
