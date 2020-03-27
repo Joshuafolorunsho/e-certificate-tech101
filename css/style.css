@@ -23,8 +23,7 @@ body {
    width: 80rem;
    height: 57rem;
    margin: 50px auto;
-   border-bottom-left-radius: .7rem;
-   border-bottom-right-radius: .7rem;
+   border-radius: .7rem;
    background-color: var(--primary-color);
 }
 
