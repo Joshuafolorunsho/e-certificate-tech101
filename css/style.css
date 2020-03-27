@@ -87,7 +87,7 @@ body {
    font-weight: bold;
 }
 
-input{
+input[type="checkbox"]{
    vertical-align: middle;
 }
 
