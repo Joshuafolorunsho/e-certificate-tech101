@@ -67,21 +67,6 @@ body {
    width: 70%;
 }
 
-
-/* .signature{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-}
-
-
-
-.signature > p{
-   font-weight: bold;
-   font-style: italic;
-} */
-
 .signature > img{
    width: 80%;
 }
