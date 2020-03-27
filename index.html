@@ -7,7 +7,10 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+   <div class="input-container">
+      <label for="">Change Name:</label>
+      <input class="input" type="text">
+   </div>
    <div class="container">
       <div class="first-part">
          <img src="./img/tech101 certification of completion.png" alt="cerfication of completion">
@@ -16,7 +19,7 @@
          <div class="roothub-logo">
          </div>
          <div class="line">
-            <h1>Joshua Folorunsho</h1>
+            <h1></h1>
          </div>
          <div class="wrapper">
             <div>
@@ -47,7 +50,21 @@
       </div>
    </div>
 
+   <script>
+      const changeName = () => {
+         
+         const value = document.querySelector('.input').value
+         if (value.length <= 26) {
+            document.querySelector('.line h1').textContent = value;
+         } else {
+            document.querySelector('.line h1').style.fontSize = '2.7rem';
+            document.querySelector('.line h1').textContent = value;
 
+         }
+      }
+      
+      document.querySelector('.input').addEventListener('input', changeName)
+   </script>
 
 </body>
 </html>

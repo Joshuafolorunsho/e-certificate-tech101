@@ -20,6 +20,16 @@ h1 {
    font-family: 'Futura';
 }
 
+.input-container{
+   width: 50%;
+   margin: 20px auto;
+}
+
+input[type=text]{
+   height: 4rem;
+   width: 100%;
+}
+
 *{
    margin: 0;
    padding: 0;
